@@ -1,0 +1,405 @@
+@media (max-width: 767px) {
+  .hidden-xs,
+  tr.hidden-xs,
+  th.hidden-xs,
+  td.hidden-xs {
+    display: none !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm,
+  tr.hidden-sm,
+  th.hidden-sm,
+  td.hidden-sm {
+    display: none !important; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md,
+  tr.hidden-md,
+  th.hidden-md,
+  td.hidden-md {
+    display: none !important; } }
+@media (min-width: 1200px) {
+  .hidden-lg,
+  tr.hidden-lg,
+  th.hidden-lg,
+  td.hidden-lg {
+    display: none !important; } }
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+.relative {
+  position: relative; }
+
+.fullWidth {
+  width: 100%; }
+
+.negativeIndent {
+  text-indent: -999999px; }
+
+.makeDiv {
+  display: inline-block; }
+
+.centeredImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.italic {
+  font-style: italic; }
+
+.noMargin {
+  margin: 0; }
+
+.noMarginTop {
+  margin-top: 0; }
+
+.noMarginBottom {
+  margin-bottom: 0; }
+
+.noMarginLeft {
+  margin-left: 0; }
+
+.noMarginRight {
+  margin-right: 0; }
+
+.noPadding {
+  padding: 0; }
+
+.noPaddingTop {
+  padding-top: 0; }
+
+.noPaddingBottom {
+  padding-bottom: 0; }
+
+.noPaddingLeft {
+  padding-left: 0; }
+
+.noPaddingRight {
+  padding-right: 0; }
+
+.grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  /* For Webkit browsers */
+  filter: gray;
+  /* For IE 6 - 9 */
+  -webkit-transition: all .4s ease;
+  /* Transition for Webkit browsers */ }
+
+.grayscale:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: none; }
+
+.invertscale {
+  filter: invert(50%);
+  -webkit-filter: invert(50%);
+  /* For Webkit browsers */
+  filter: gray;
+  /* For IE 6 - 9 */
+  -webkit-transition: all .4s ease;
+  /* Transition for Webkit browsers */ }
+
+.invertscale:hover {
+  filter: invert(0%);
+  -webkit-filter: invert(0%);
+  filter: none; }
+
+.welcome {
+  background: url("../img/dark_wood.png") repeat;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  padding: 50px 0; }
+  .welcome h1 {
+    font-weight: 300;
+    font-size: 46px;
+    margin-top: 0;
+    color: #ffffff;
+    border-bottom: 2px solid #c51110; }
+  .welcome h2 {
+    font-weight: 300;
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 32px; }
+
+.aboutme {
+  padding: 100px 0; }
+  .aboutme h1 {
+    font-weight: 300;
+    font-size: 46px;
+    margin-top: 0;
+    color: #000000;
+    border-bottom: 2px solid #c51110;
+    text-align: right; }
+
+.alterBg {
+  background: url("../img/square_bg.png") repeat;
+  -webkit-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.75); }
+
+.sectionContent {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .sectionContent p {
+    font-size: 20px; }
+
+.service-wrapper {
+  box-shadow: none; }
+
+/*Anasayfa Parallax */
+section.module:last-child {
+  margin-bottom: 0; }
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-size: 30px; }
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300; }
+
+section.module p:last-child {
+  margin-bottom: 0; }
+
+section.module.content {
+  padding: 40px 0; }
+
+section.module.parallax {
+  height: 430px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 38px;
+  line-height: 400px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  @media only screen and (max-width: 767px) {
+    section.module.parallax h1 {
+      margin-top: 150px;
+      line-height: 40px;
+      font-size: 24px; } }
+
+section.module.parallax-1 {
+  background-image: url("../img/parallax.jpg"); }
+
+section.module.parallax-2 {
+  background-image: url("../img/parallax2.jpg"); }
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 32px; }
+
+  section.module p {
+    font-size: 20px; }
+
+  section.module.parallax h1 {
+    font-size: 56px; } }
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 40px;
+    text-align: left; } }
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px; }
+
+a {
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -khtml-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  a:hover {
+    color: #c51110;
+    text-decoration: none; }
+
+img, figure {
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.75); }
+
+.noShade {
+  box-shadow: none; }
+
+.grid {
+  position: relative;
+  clear: both;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 600px;
+  max-height: 360px;
+  width: 31.3%;
+  height: auto;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer; }
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8; }
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none; }
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0; }
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300; }
+
+.grid figure h2 span {
+  font-weight: 800; }
+
+.grid figure h2,
+.grid figure p {
+  margin: 0; }
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%; }
+
+/*-----------------*/
+/***** Winston *****/
+/*-----------------*/
+figure.effect-winston {
+  background: none;
+  text-align: left;
+  -webkit-transition: all 0.3s ease-in-out;
+  -khtml-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  figure.effect-winston:hover {
+    background: #162633; }
+
+figure.effect-winston img {
+  -webkit-transition: opacity 0.45s;
+  transition: opacity 0.45s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+figure.effect-winston figcaption::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/triangle.svg) no-repeat center center;
+  background-size: 100% 100%;
+  content: '';
+  -webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+  transition: opacity 0.45s, transform 0.45s;
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+  transform: rotate3d(0, 0, 1, 45deg);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%; }
+
+figure.effect-winston h2 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0); }
+
+figure.effect-winston p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 1.5em 7% 0; }
+
+figure.effect-winston a {
+  margin: 0 10px;
+  color: #5d504f;
+  font-size: 170%; }
+
+figure.effect-winston a:hover,
+figure.effect-winston a:focus {
+  color: #cc6055; }
+
+figure.effect-winston p a i {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 50px, 0);
+  transform: translate3d(0, 50px, 0); }
+
+figure.effect-winston:hover img {
+  opacity: 0.6; }
+
+figure.effect-winston:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+figure.effect-winston:hover figcaption::before {
+  opacity: 0.7;
+  -webkit-transform: rotate3d(0, 0, 1, 20deg);
+  transform: rotate3d(0, 0, 1, 20deg); }
+
+figure.effect-winston:hover p i {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+figure.effect-winston:hover p a:nth-child(3) i {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s; }
+
+figure.effect-winston:hover p a:nth-child(2) i {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s; }
+
+figure.effect-winston:hover p a:first-child i {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s; }
+
+/*# sourceMappingURL=style.css.map */
