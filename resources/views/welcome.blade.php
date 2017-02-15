@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                         <h1>serhat uzunçavdar</h1>
-                        <h2>full stack developer, briefly. currently updating his website. </h2>
+                        <h2>full stack developer, briefly. updating his website, currently. </h2>
                     </div>
                 </div>
             </div>
