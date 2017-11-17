@@ -10,7 +10,7 @@
     <meta name="author" content="Serhat Uzunçavdar | Web Developer">
     <meta name="p:domain_verify" content="9baf391fa721685f4c69d2d165a82ea9"/>
     <meta name="canonical" content="">
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ url('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/style.css') }}">
